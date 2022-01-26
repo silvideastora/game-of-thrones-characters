@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {    
+    margin: 0;
+    padding: 0;
+    font-family: 'MedievalSharp', cursive;
+}
+html {
+    font-size: 62.5%;
+}
+.header-container {
+    width: 100%;
+    height: 5rem;
+    background-color: #00080a;
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding: 2px;
+    align-items: center;
+}
+.header-container .header-nav-container ul {
+    display: flex;
+    justify-content: space-evenly;
+} 
+.header-nav-container ul li {
+    list-style: none;
+} 
+.left-aside {
+    margin: 10px 0px 0px 20px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+.article-container {
+    width: 100%;
+    
+}
+.article-container article {
+    height: 200px;
+    padding: 1rem;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: #00080a;
+    color: pink;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.article-container article img {
+    width: 80%;
+    border-radius: 10%;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+    background: #000000;
+    background: linear-gradient(to right, #434343, #000000);
+}
+.section-container {
+    width: 70%;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-right: 30px 0 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.section-container-content div {
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+}
+.section-container-content h2 {
+    color: pink;
+}
+.section-container-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10%;
+    align-items: flex-end;
+    border: 1px solid white;
+}
+.section-container-content p {
+    text-align: justify;
+    padding: 0px 5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.social-media-container {
+    width: 100%;
+    padding: 25px;
+    background-color: #00080a;
+}
